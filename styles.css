@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+#home {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#nav-wrapper {
+    font: 12px 'opensans-bold', sans-serif;
+    width: 100%;
+    text-transform: uppercase;
+    margin:0, auto;
+    position:fixed;
+    left: 0;
+    top: 0;
+}
+
+ul#nav {
+    min-height: 48px;
+    width: auto;
+    text-align: center;
+}
+
+ul#nav li {
+    position: relative;
+    list-style: none;
+    height: 48px;
+    display: inline-block;
+}
+
+ul#nav li a {
+    display: inline-block;
+    padding: 8px 13px;
+    line-height: 32px;
+    text-decoration: none;
+    text-align: left;
+    color: #fff;
+    transition: 0.6s ease;
+}
+
+ul#nav li a:hover {
+    color:black;
+}
+
+header .info {
+    padding: 30px 0px;
+    text-align: center;
+    color:whitesmoke;
+}
+header .text {
+    width: 100%;
+}
+
+header .text h1 {
+    font: 60px/1.9em 'verdana', sans-serif;
+}
+
+header .text h2 {
+    font: 18px/1.5em 'courier new', monospace;
+}
+
+header .img-myself {
+    width: 300px;
+    height: 300px;
+    background-image: url(images/Snapchat-70301118.jpg);
+    background-size:200%;
+    background-repeat: no-repeat;
+    background-position:center top;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -105%);
+    border-radius: 50%;
+    position: relative;   
+}
+
+#social {
+    margin: 0px 15px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+ul#social-information {
+    width: auto;
+    text-align: center;
+}
+
+ul#social-information li {
+    display: inline-block;
+    margin: 0px 15px;
+    text-align: center;
+    list-style: none;
+    cursor: pointer;
+}
+
+ul#social-information li:hover a {
+    transition: all 0.5s ease;
+    color:lightskyblue
+}
+
+ul#social-information li a {
+    color:whitesmoke;
+}
+
+#about {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/background2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 5rem;
+}
+
+/* About Page */
+
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.profile-image-wrapper img {
+    width: 100%;
+    padding: 15px;
+}
+
+.profile-content-wrapper {
+    padding: 30px;
+}
+
+.profile-content-wrapper h1 {
+    color: whitesmoke;
+    font: 50px 'verdana-bold', sans-serif;
+    padding-bottom: 30px;
+}
+
+.profile-content-wrapper p {
+    color: whitesmoke;
+    font: 20px 'verdana-bold', sans-serif;
+    padding-bottom: 60px;
+}
+
+.profile-content-wrapper a {
+    padding: 15px 25px;
+    font: 35px 'verdana', sans-serif;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color:yellowgreen;
+    border: none;
+    border-radius: 15px;
+}
+
+.profile-content-wrapper a:hover {
+    background-color:antiquewhite;
+}
+/* #about .about-body {
+    margin-bottom: 3rem;
+}
+
+#about .about-body h1 {
+    text-align: center;
+    font: 60px 'verdana-bold', sans-serif;
+    color: whitesmoke;
+}
+
+.about-info {
+    margin-top: 4.2rem;
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
+.about-info p{
+    object-fit: cover;;
+    font: 25px 'verdana-bold', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.about-info .img-myself {
+    width: 300px;
+    height: 350px;
+    background-image: url(images/img.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position:center ;
+    border: 2px solid black;
+    margin: 0.9rem 1rem 0 2rem;
+    /* float: left; */
+} */
